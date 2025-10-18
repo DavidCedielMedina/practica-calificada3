@@ -2,12 +2,15 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-screen h-full justify-center items-center divide-x gap-8">
-      <section className="flex">
+    <div
+      style={{ fontFamily: "Nunito, sans-serif" }}
+      className="flex flex-col w-screen h-full justify-center items-center divide-x gap-8"
+    >
+      <section className="flex ">
         <div className="flex justify-end-safe pl-10 pt-5 flex-col w-[40%]">
-          <h1 className="text-[12px]">Bootstrap 5 theme</h1>
-          <h2 className="text-[10px]">crafted by themeWagon</h2>
-          <p className="text-[8px]">
+          <h1 className="text-[14px]">Bootstrap 5 theme</h1>
+          <h2 className="text-[13px]">crafted by themeWagon</h2>
+          <p className="text-[12px]">
             ThemeWagon offers an wide array of category-oriented Free and
             Premiun Bootstrap HTML Templates and Themes
           </p>

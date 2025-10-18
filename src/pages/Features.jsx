@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Features() {
   return (
-    <div className="flex flex-col justify-center items-center py-5 px-3 gap-5">
+    <div
+      style={{ fontFamily: "Nunito, sans-serif" }}
+      className="flex flex-col justify-center items-center py-5 px-3 gap-5 bg-gradient-to-l  from-[#d4e0fc] via-white to-[#f9eff1]"
+    >
       <div>
         <h1 className="flex flex-col justify-center items-center text-[16px]">
           <strong>Features</strong>

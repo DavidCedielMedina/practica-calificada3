@@ -69,7 +69,7 @@ export default function App() {
           </svg>
         </button>
         {isOpen && (
-          <nav className="absolute flex md:hidden flex-col bg-gradient-to-tl  from-[#d4e0fc] via-white to-[#f9eff1] rounded-xl top-10 right-2 p-4 gap-3">
+          <nav className="absolute flex md:hidden flex-col bg-gradient-to-tl  from-[#d4e0fc] via-white to-[#f9eff1] rounded-xl top-10 right-2 p-4 gap-3 text-purple-400">
             <Link to="/" onClick={() => setIsOpen(false)}>
               Home
             </Link>
