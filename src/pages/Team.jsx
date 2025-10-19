@@ -6,7 +6,10 @@ export default function Team() {
       style={{ fontFamily: "Nunito, sans-serif" }}
       className="flex flex-col justify-center items-center p-4 bg-gradient-to-l  from-[#d4e0fc] via-white to-[#f9eff1] "
     >
-      <h1 className="text-[16px] py-5">Our Team</h1>
+      <h1 className="text-[16px] py-5">
+        {" "}
+        <strong>Our Team</strong>
+      </h1>
       <p className="text-[14px]">
         People from various origins, cultures, and personalities make up our
         team. This blend makes it a powerful team
@@ -15,7 +18,7 @@ export default function Team() {
         <div className="flex flex-col justify-center items-center">
           <img
             className="h-[425px] w-[258px]"
-            src="/public/6.team/image1.png"
+            src="/6.team/image1.png"
             alt=""
           />
           <h2>John Adams</h2>
@@ -24,7 +27,7 @@ export default function Team() {
         <div className="flex flex-col justify-center items-center">
           <img
             className="h-[425px] w-[258px]"
-            src="/public/6.team/image2.png"
+            src="/6.team/image2.png"
             alt=""
           />
           <h2>Carrey Johnson</h2>
@@ -33,7 +36,7 @@ export default function Team() {
         <div className="flex flex-col justify-center items-center">
           <img
             className="h-[425px] w-[258px]"
-            src="/public/6.team/image3.png"
+            src="/6.team/image3.png"
             alt=""
           />
           <h2>Ray Marie</h2>
@@ -42,7 +45,7 @@ export default function Team() {
         <div className="flex flex-col justify-center items-center">
           <img
             className="h-[425px] w-[258px]"
-            src="/public/6.team/image4.png"
+            src="/6.team/image4.png"
             alt=""
           />
           <h2>Austin Min</h2>

@@ -4,27 +4,27 @@ export default function Contact() {
   return (
     <section
       style={{ fontFamily: "Nunito, sans-serif" }}
-      className="flex flex-col bg-gradient-to-l  from-[#d4e0fc] via-white to-[#f9eff1] h-screen w-full pl-3"
+      className="flex flex-col bg-gradient-to-l  from-[#d4e0fc] via-white to-[#f9eff1] h-screen w-full pl-3 justify-center items-center"
     >
-      <form className="flex flex-col bg-white/30 rounded-2xl gap-5 px-6 py-4 m-3">
+      <form className="flex flex-col bg-white/40 rounded-2xl gap-5 px-6 py-4 m-3 lg:w-[500px] h-[200px] border-white border-2 ">
         <input
-          className="rounded-[8px] py-1 px-2 bg-white text-gray-500 text-[10px] "
+          className="rounded-[8px] py-1 px-2 bg-white text-gray-500 text-[10px] lg:text-[13px] "
           type="text"
           placeholder="Write your name"
         />
         <input
-          className="rounded-[8px] py-1 px-2 bg-white text-gray-500 text-[10px]"
+          className="rounded-[8px] py-1 px-2 bg-white text-gray-500 text-[10px] lg:text-[13px]"
           type="email"
           placeholder="Write your email"
         />
         <textarea
-          className="rounded-[8px] py-1 px-2 bg-white text-gray-500 text-[10px]"
+          className="rounded-[8px] py-1 px-2 bg-white text-gray-500 text-[10px] lg:text-[13px]"
           name=""
           id=""
           placeholder="Write your message"
         ></textarea>
       </form>
-      <div className="flex flex-col absolute w-full bottom-0 bg-[url('/7.contact/image1.png')] bg-cover p-5 gap-5">
+      <div className="flex flex-col absolute lg:right-0 bottom-0 lg:bottom-1/3 bg-[url('/7.contact/image1.png')] bg-cover p-5 gap-5 lg:w-1/3">
         <div className="flex gap-3 text-[12px] ">
           <div>
             <svg
